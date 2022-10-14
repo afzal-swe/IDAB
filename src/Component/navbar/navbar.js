@@ -18,6 +18,7 @@ function Navbar() {
     } else setIcon("nav__toggler");
   };
   return (
+    // nav bar edit
     <nav className="nav">
       <Link to="/" className="nav__brand">
         IDAB
