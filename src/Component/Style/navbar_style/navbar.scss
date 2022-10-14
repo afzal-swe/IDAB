@@ -11,6 +11,10 @@ html {
     font-size: 1.6rem;
 
     .nav {
+      // position: fixed;
+      // left: 0;
+      // right: 0;
+      // z-index: 999;
       display: flex;
       align-items: center;
       justify-content: space-around;
@@ -23,6 +27,7 @@ html {
         color: rgb(255, 248, 248);
         font-size: 16px;
         padding: 5px;
+        transition: .3s;
        
       }
       ul{

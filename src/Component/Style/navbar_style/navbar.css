@@ -16,7 +16,7 @@ html body .nav {
   align-items: center;
   justify-content: space-around;
   height: 76px;
-  background: rgb(7, 70, 66);
+  background: rgb(90, 89, 89);
   padding: 47px;
 }
 html body .nav a {
@@ -24,6 +24,7 @@ html body .nav a {
   color: rgb(255, 248, 248);
   font-size: 16px;
   padding: 5px;
+  transition: 0.3s;
 }
 html body .nav ul li {
   list-style: none;

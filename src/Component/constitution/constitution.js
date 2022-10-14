@@ -1,10 +1,12 @@
 import React from 'react'
-class constitution extends React.Component {
-    render() {
-        return (
-            <h1>Welcome To constitution Section Page!!</h1>
-        );
-    }
-}
+import "../bootstrap_4/css/bootstrap-grid.min.css";
+import "../Style/constitution/constitution.css";
 
-export default constitution;
+const Constitution = () => {
+        return (
+            <div className="container main">
+                <h1>Constitution Site Up Comming......</h1>
+            </div>
+        );
+}
+export default Constitution;

@@ -1,9 +1,12 @@
 import React from 'react'
-class notice extends React.Component {
-    render() {
+import "../bootstrap_4/css/bootstrap-grid.min.css";
+import "../Style/notice/notice.css";
+
+const Notice = () => {
         return (
-            <h1>Welcome To IDAB Notice Page!!</h1>
+            <div className="container main">
+                <h1>Notice Site Up Comming......</h1>
+            </div>
         );
-    }
 }
-export default notice;
+export default Notice;

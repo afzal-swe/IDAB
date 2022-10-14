@@ -50,8 +50,8 @@ const Footer = () => {
         </a>
       </div>
 
-      <div className="footer_copyright">
-        <small>&copy;Johirul Islam.All rights reserved</small>
+      <div className='footer_copyright'>
+        <span class="credit">Created By <a href="https://engrafzalhossen.com/afzal-swe">IDAB</a> | @ 2022 all right reserved.</span>
       </div>
     </footer>
   );

@@ -1,9 +1,12 @@
 import React from 'react'
-class event extends React.Component {
-    render() {
+import "../bootstrap_4/css/bootstrap-grid.min.css";
+import "../Style/events/events.css";
+
+const Event = () => {
         return (
-            <h1>Welcome To IDAB event Page!!</h1>
+            <div className="container main">
+                <h1>Event Site Up Comming......</h1>
+            </div>
         );
-    }
 }
-export default event;
+export default Event;

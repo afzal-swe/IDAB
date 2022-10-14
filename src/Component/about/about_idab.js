@@ -5,7 +5,18 @@ import "../Style/about_idab/about.css"
 
 const Aobut = () => {
     return (
-        <div className="container">
+        <div className="main_div">
+            <div className='img_slider col-lg-12'>
+            {/* <img src="../Style/about_idab/idab_profile.jpg"/> */}
+                <div className='banner-content '>
+                <div className='banner_text'>
+                    <h1>IDAB About Section</h1>
+                    <h4>Interior designer’s association Of Bangladesh</h4>
+                </div>
+                </div>
+            </div>
+
+            <div className="container">
             <div className='welcome_massage'>
                 <h2>Welcome massage from President</h2>
                 <p>
@@ -55,6 +66,7 @@ const Aobut = () => {
                     10. To offer an award for best design on Residence Design, Commercial Design, landscaping.<br/><br/>
                     11. To offer, if and when possible, grants/scholarships for Interior design and to students learning Interior design.<br/><br/>
                 </p>
+            </div>
             </div>
      </div>    
     )

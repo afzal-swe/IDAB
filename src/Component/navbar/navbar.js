@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import "../Style/navbar_style/navbar.css";
 import "../bootstrap_4/css/bootstrap-grid.min.css";
+import "../Style/navbar_style/navbar.css";
+
 import {Link, useMatch, useResolvedPath} from "react-router-dom";
 
 function Navbar() {
@@ -57,11 +58,11 @@ function Navbar() {
             Publication
           </Link>
         </li>
-        <li className="nav__item">
-          <Link to="/Course" className="nav__link">
+        {/* <li className="nav__item">
+          <Link to="/test_file" className="nav__link">
             Courses
           </Link>
-        </li>
+        </li> */}
         <li className="nav__item">
           <Link to="/Contact" className="nav__link">
             Contact

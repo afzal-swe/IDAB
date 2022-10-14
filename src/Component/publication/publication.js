@@ -1,9 +1,12 @@
 import React from 'react'
-class publication extends React.Component {
-    render() {
+import "../bootstrap_4/css/bootstrap-grid.min.css";
+import "../Style/publication/publication.css";
+
+const Publication = () => {
         return (
-            <h1>Welcome To IDAB Publication Page!!</h1>
+            <div className="container main">
+                <h1>Publication Site Up Comming......</h1>
+            </div>
         );
-    }
 }
-export default publication;
+export default Publication;
