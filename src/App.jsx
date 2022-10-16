@@ -37,7 +37,7 @@ const App = () => {
           <Route path="/Contact" element={<Contact />} />
         </Routes>
       </div>
-      {/* <Test/> */}
+      <Test/>
       {/* <Associate_Member />
       <Candidate_Member />
       <Professional_Member />
